@@ -14,6 +14,8 @@ Below are some of the resources I utilized:
 - https://discuss.streamlit.io/t/inserting-data-via-streamlit-form-to-google-sheets/38149/13
 - https://docs.streamlit.io/develop/api-reference/widgets
 - https://docs.streamlit.io/develop/tutorials/databases/public-gsheet
+- https://docs.streamlit.io/develop/api-reference/charts/st.pyplot
+- https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
 
 I used google-auth over oauth2client since the latter is deprecated:
