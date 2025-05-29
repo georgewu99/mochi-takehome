@@ -18,7 +18,7 @@ Below are some of the resources I utilized:
 - https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
 
-I used google-auth over oauth2client since the latter is deprecated:
+I used google-auth instead of oauth2client since the latter is deprecated:
 - https://pypi.org/project/oauth2client/
 
 Let me know if you encounter any issues with accessing the sheet, running the script, and/or the APIs and connection to the sheet. I know it can be really finnicky getting all the connectors and authorizations established 
