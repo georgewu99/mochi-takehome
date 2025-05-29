@@ -7,8 +7,6 @@ This app takes in user input (dropdown for mood, text for comment) and stores it
 Link to gsheet: 
 - https://docs.google.com/spreadsheets/d/1acBjau_dhsdjqS8DmY7JGhksRjqwmYsLvZud33RKMU8/edit?usp=sharing
 
-My credentials.json file is in .gitignore
-
 Below are some of the resources I utilized: 
 - https://docs.gspread.org/en/v6.1.4/user-guide.html#getting-all-values-from-a-row-or-a-column
 - https://discuss.streamlit.io/t/inserting-data-via-streamlit-form-to-google-sheets/38149/13
