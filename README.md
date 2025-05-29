@@ -10,13 +10,13 @@ https://docs.google.com/spreadsheets/d/1acBjau_dhsdjqS8DmY7JGhksRjqwmYsLvZud33RK
 My credentials.json file is in .gitignore
 
 Below are some of the resources I utilized: 
-https://docs.gspread.org/en/v6.1.4/user-guide.html#getting-all-values-from-a-row-or-a-column
-https://discuss.streamlit.io/t/inserting-data-via-streamlit-form-to-google-sheets/38149/13
-https://docs.streamlit.io/develop/api-reference/widgets
-https://docs.streamlit.io/develop/tutorials/databases/public-gsheet
+- https://docs.gspread.org/en/v6.1.4/user-guide.html#getting-all-values-from-a-row-or-a-column
+- https://discuss.streamlit.io/t/inserting-data-via-streamlit-form-to-google-sheets/38149/13
+- https://docs.streamlit.io/develop/api-reference/widgets
+- https://docs.streamlit.io/develop/tutorials/databases/public-gsheet
 
 
 I used google-auth over oauth2client since the latter is deprecated:
-https://pypi.org/project/oauth2client/
+- https://pypi.org/project/oauth2client/
 
 Let me know if you encounter any issues with accessing the sheet, running the script, and/or the APIs and connection to the sheet. I know it can be really finnicky getting all the connectors and authorizations established 
