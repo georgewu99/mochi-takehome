@@ -5,7 +5,7 @@ Mood of the Queue app:
 This app takes in user input (dropdown for mood, text for comment) and stores it along with timestamp in a connected Google sheet. It then visualizes the day's mood trend in a bar chart.
 
 Link to gsheet: 
-https://docs.google.com/spreadsheets/d/1acBjau_dhsdjqS8DmY7JGhksRjqwmYsLvZud33RKMU8/edit?usp=sharing
+- https://docs.google.com/spreadsheets/d/1acBjau_dhsdjqS8DmY7JGhksRjqwmYsLvZud33RKMU8/edit?usp=sharing
 
 My credentials.json file is in .gitignore
 
