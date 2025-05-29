@@ -4,7 +4,7 @@ Github repo for Mochi take home assignment
 Mood of the Queue app:
 This app takes in user input (dropdown for mood, text for comment) and stores it along with timestamp in a connected Google sheet. It then visualizes the day's mood trend in a bar chart.
 
-Link to gsheet: 
+Link to Google Sheet that houses the submissions: 
 - https://docs.google.com/spreadsheets/d/1acBjau_dhsdjqS8DmY7JGhksRjqwmYsLvZud33RKMU8/edit?usp=sharing
 
 Below are some of the resources I utilized: 
@@ -16,7 +16,7 @@ Below are some of the resources I utilized:
 - https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.subplots.html
 
 
-I used google-auth instead of oauth2client since the latter is deprecated:
+Note: I used google-auth to establish the connection instead of oauth2client since the latter is deprecated:
 - https://pypi.org/project/oauth2client/
 
 Let me know if you encounter any issues with accessing the sheet, running the script, and/or the APIs and connection to the sheet. I know it can be really finnicky getting all the connectors and authorizations established 
