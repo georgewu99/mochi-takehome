@@ -12,13 +12,7 @@ import matplotlib.pyplot as plt
 
 st.write('imports good')
 
-
-
-# Connect to Google Sheets
-# conn = st.connection("gsheets", type=GSheetsConnection)
-
-# Read existing data
-# existing_data = conn.read(worksheet="Sheet1")
+gc = gspread.service_account_from_dict(st.secrets["gspread"])
 
 
 with st.form("my_form"):
@@ -53,10 +47,10 @@ with st.form("my_form"):
 
 
         scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-        creds = Credentials.from_service_account_file('credentials.json', scopes = scope)
-        client = gspread.authorize(creds)
+        #creds = Credentials.from_service_account_file('credentials.json', scopes = scope)
+        #client = gspread.authorize(creds)
         
-        sh = client.open('MoodEntryLog').worksheet('Log')  
+        sh = gc.open('MoodEntryLog').worksheet('Log')  
         sh.append_row(new_row)
 
 
