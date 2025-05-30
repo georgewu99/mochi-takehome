@@ -1,4 +1,6 @@
 import streamlit as st
+st.write('App starting')
+
 from streamlit_gsheets import GSheetsConnection
 import datetime as dt
 from datetime import datetime
@@ -7,6 +9,9 @@ import pandas as pd
 import gspread
 from google.oauth2.service_account import Credentials
 import matplotlib.pyplot as plt
+
+st.write('imports good')
+
 
 
 # Connect to Google Sheets
